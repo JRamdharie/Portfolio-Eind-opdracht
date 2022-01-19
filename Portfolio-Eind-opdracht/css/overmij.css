@@ -1,0 +1,118 @@
+body{
+    background-color: #3b403c;
+}
+
+.header{
+    width: 1450px;
+    height: 80px;
+    background-color: #3b403c;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+}
+
+.article{
+    width: 1426px;
+    height: 600px;
+    background-color: #3b403c;
+    float: right;
+    text-align: center;
+    color: #66ad90;
+    
+}
+
+
+
+
+
+
+.container{
+    width: 550px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b403c;
+    text-align: center;
+}
+
+.text{
+    font-weight: 600;
+    font-size: 15px;
+    line-height:12px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 400%;
+    animation: move 5s ease infinite;
+    background-image: linear-gradient( 68.7deg,  rgba(29,173,235,1) 13.2%, rgba(137,149,250,1) 29.8%, rgba(229,109,212,1) 48.9%, rgba(255,68,128,1) 68.2%, rgba(255,94,0,1) 86.4% );
+    text-align: center;
+}
+
+
+@keyframes move {
+    0%,100%{
+        background-position: 200% 0%;
+    }
+
+    50%{
+        background-position: 0% 200%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 60; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+
+  .footer{
+      width: 1450px;
+      height: 100px;
+      background-color:#111;
+      color:#66ad90;
+      float: right;
+      text-align: center;
+  }
