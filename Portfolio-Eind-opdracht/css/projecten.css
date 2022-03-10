@@ -83,6 +83,46 @@ body{
 
 
 
+
+  
+  .pushabletwee {
+    background: #3d594a;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+  .fronttwee {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: #66ad90;
+    color: white;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .footer{
       width: 1450px;
       height: 100px;
