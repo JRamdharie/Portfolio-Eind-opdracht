@@ -23,33 +23,6 @@ body{
     
 }
 
-.container{
-  background-color: #111;
-  border: 5px solid #66ad90;
-  height: 250px;
-  width: 600px;
-  margin: 0 auto;
-  text-align: center;
-
-}
-
-.btn{
-  margin: 50px auto;
-  height: 50px;
-  width: 250px;
-  font-size: 18px;
-  background-color: 
-  #b3b3b3
-}
-
-.output{
-  margin: 25px auto;
-  font-size: 26px;
-  color: #66ad90;
-}
-
-
-
 .h1{
   font-size: 90px;
 }
@@ -89,7 +62,7 @@ body{
     padding: 0px 10px;
   }
 
-  .footer {
+  .footer{
       width: 1450px;
       height: 100px;
       background-color:#111;
