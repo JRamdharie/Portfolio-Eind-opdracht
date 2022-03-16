@@ -41,16 +41,11 @@ body{
 }
 
 .previous{
-  margin: 0 auto;
-  height: 50px;
-  width: 50px;
-  margin-left: 70%;
+
+  margin-left: 730px;
 }
-.next{
-  margin: 0 auto;
-  height: 50px;
-  width: 50px;
-  margin-left: 70%;
+.next {
+  margin-left: 800px;
 }
 
 
