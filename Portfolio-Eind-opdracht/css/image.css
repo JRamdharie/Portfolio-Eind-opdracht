@@ -23,6 +23,51 @@ body{
     
 }
 
+.container{
+  height: 500px;
+  width: 320px;
+  
+  margin-bottom: 100px auto;
+  text-align: center;
+  border: 5px #111;
+ 
+}
+
+
+.image{
+  height: 500px;
+  width: 320px;
+  margin-left: 180%;
+}
+
+.previous{
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+  margin-left: 70%;
+}
+.next{
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+  margin-left: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .h1{
   font-size: 90px;
 }
