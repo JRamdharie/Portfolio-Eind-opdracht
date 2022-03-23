@@ -34,20 +34,33 @@ body{
 }
 
 
-.image{
-  height: 500px;
-  width: 320px;
-  margin-left: 180%;
+
+.carousel-container {
+
+  width: 50%;
+
+  height: 100%;
+
+  margin: auto;
+
+  border: 5px solid black;
+
+  overflow: hidden;
+
 }
 
-.previous{
+.carousel-slide {
 
-  margin-left: 730px;
-}
-.next {
-  margin-left: 800px;
+  display: flex;
+
+  width: 45%;
+
+  height: 1100px;
+
+  border: 5px solid black;
 }
 
+ 
 
 
 
@@ -110,3 +123,6 @@ body{
       float: right;
       text-align: center;
   }
+
+
+
